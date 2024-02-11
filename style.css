@@ -7,14 +7,14 @@
 .container{
     width: 100%;
     min-height: 100vh;
-    background: linear-gradient(135deg, #ffffff, #a7edff);
+    background: linear-gradient(135deg, #000000, #000000);
     padding: 10px;
     opacity: 1;
 }
 .todo-app{
     width: 100%;
     max-width: 540px;
-    background: #ffffff;
+    background: #000000;
     margin: 100px auto 20px;
     padding: 40px 30px 70px;
     border-radius: 10px;
@@ -22,13 +22,13 @@
     opacity: 1;
 }
 .todo-app h2{
-    color: #002765;
+    color: #ffffff;
     display: flex;
     align-items: center;
     margin-bottom: 20px;
 }
 .todo-app h1 {
-    color: #000000;
+    color: #ffffff;
     font-size: 15px; /* Set the font size to a smaller value */
     opacity: 0.356; /* Set the opacity to control transparency */
     position: absolute; /* Position the h1 element */
@@ -44,7 +44,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: #f2fcff;
+    background: #000000;
     border-radius:  30px;
     padding-left: 20px;
     margin-bottom: 25px;
@@ -55,14 +55,15 @@ input{
     outline: none;
     background: transparent;
     padding: 10px;
+    color:#edeef0;
 }
 button{
     border: none;
     outline: none;
     padding: 12px 30px;  /* Adjusted padding */
     width: 100px; /* Specific width to accommodate the button content */
-    background: #53c9ff;
-    color: #fff; 
+    background: #ffffff;
+    color: #000000; 
     font-size: 16px;
     cursor: pointer;
     border-radius: 30px; /* Adjusted border-radius for a slightly curved appearance */
@@ -75,6 +76,7 @@ ul li{
     user-select: none;
     cursor: pointer;
     position: relative;
+    color: #edeef0;
 }
 ul li::before{
     content: '';
